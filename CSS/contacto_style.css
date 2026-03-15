@@ -1,0 +1,93 @@
+.logo{
+  width: 90px;
+  height: auto;
+}
+
+.contact-page{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.contact-section{
+  width: 100%;
+}
+
+.contact-card{
+  max-width: 760px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 28px;
+  padding: 2rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  backdrop-filter: blur(10px);
+}
+
+.contact-eyebrow{
+  color: #6ee7ff;
+  letter-spacing: 0.2em;
+  font-size: 0.85rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card h1{
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.contact-text{
+  color: #a9b1d6;
+  margin-bottom: 2rem;
+}
+
+.contact-form{
+  display: grid;
+  gap: 1.2rem;
+}
+
+.form-group{
+  display: grid;
+  gap: 0.5rem;
+}
+
+.form-group label{
+  color: #f5f7ff;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  color: white;
+  outline: none;
+  font: inherit;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.04);
+  color: white;
+  outline: none;
+  font: inherit;
+}
+
+.form-group select option {
+  background: #0b1023;
+  color: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+  border-color: rgba(110,231,255,0.55);
+  box-shadow: 0 0 0 3px rgba(110,231,255,0.10);
+}
