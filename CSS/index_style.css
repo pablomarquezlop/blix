@@ -312,6 +312,11 @@ img { max-width: 100%; display: block; }
     gap: 0.75rem;
 }
 
+.example-btn{
+  margin-top:2rem;
+  align-self:center;
+}
+
 .line {
     height: 12px;
     border-radius: 999px;
