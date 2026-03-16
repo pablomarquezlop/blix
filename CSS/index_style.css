@@ -166,6 +166,75 @@ img { max-width: 100%; display: block; }
     margin-bottom: 1.4rem;
 }
 
+.hero-actions{
+  display:flex;
+  gap:1rem;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.hero-buttons{
+display:flex;
+gap:16px;
+flex-wrap:wrap;
+margin-top:25px;
+}
+
+.hero-buttons a{
+width:420px;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.btn-demo{
+padding:16px 28px;
+border-radius:999px;
+background:rgba(255,255,255,0.06);
+border:1px solid rgba(255,255,255,0.15);
+color:white;
+font-weight:600;
+text-decoration:none;
+transition:all .25s ease;
+}
+
+.btn-demo:hover{
+background:rgba(255,255,255,0.12);
+transform:translateY(-2px);
+}
+
+.btn-whatsapp{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:0.95rem 1.35rem;
+  border-radius:999px;
+  background:rgba(37, 211, 102, 0.14);
+  color:#7dffb0;
+  border:1px solid rgba(37, 211, 102, 0.35);
+  font-weight:700;
+  box-shadow:none;
+}
+
+.btn-whatsapp:hover{
+  transform:translateY(-2px);
+  background:rgba(37, 211, 102, 0.2);
+}
+
+.btn-whatsapp,
+.btn-instagram{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+}
+
+.btn-whatsapp i,
+.btn-instagram i{
+font-size:20px;
+}
+
 .hero h1 {
     font-size: clamp(2.8rem, 7vw, 5.8rem);
     line-height: 0.96;
@@ -652,4 +721,58 @@ footer {
     .btn { width: 100%; }
     .hero-actions { flex-direction: column; }
     .nav-inner { gap: 0.8rem; }
+}
+
+.footer{
+margin-top:120px;
+padding:60px 20px 30px;
+background:rgba(255,255,255,0.02);
+border-top:1px solid rgba(255,255,255,0.08);
+}
+
+.footer-container{
+max-width:1100px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:40px;
+}
+
+.footer h2{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.footer h3{
+margin-bottom:12px;
+font-size:18px;
+}
+
+.footer p{
+color:#9ca3af;
+}
+
+.footer a{
+color:#cbd5f5;
+text-decoration:none;
+display:block;
+margin-bottom:8px;
+transition:0.2s;
+}
+
+.footer a:hover{
+color:#7dd3fc;
+}
+
+.footer i{
+margin-right:8px;
+font-size:18px;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:40px;
+padding-top:20px;
+border-top:1px solid rgba(255,255,255,0.08);
+color:#6b7280;
 }
